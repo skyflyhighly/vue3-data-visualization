@@ -18,4 +18,13 @@ export default class ChartCLVData {
     }
 }
 
+export interface ChartData {
+    label: string;
+    expSum: number;
+    ctrlSum: number;
+}
 
+export interface DailyOfferData {
+    name: string;
+    data: [string?, number?][]
+}
